@@ -1,0 +1,126 @@
+/* CSS for video background and form */
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#video-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+#form-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#form-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#wlc-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#registration-form {
+    background-color: transparent;
+    padding: 50px;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 2px rgb(255, 254, 254);
+    font-family: 'Times New Roman', Times, serif;
+
+}
+#Welc-msg{
+    background-color: transparent;
+    padding: 50px;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 2px rgb(203, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+
+input{
+    margin: 10px 0;
+    background-color: transparent;
+    color: aliceblue;
+    border: none;
+    border-bottom: 2px solid rgb(114, 192, 204);
+    cursor: pointer;
+}
+
+input .inp{
+    background-color: transparent;
+}
+.submit {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 75px;
+
+  }
+.submit1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4c9baf;
+  }
+  
+.submit1:hover {
+    background-color: #4c9baf;
+    color: white;
+  }
+.register{
+    font-size: 50px;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: aliceblue;
+}
+.text{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    color: aliceblue;
+}
+.inp{
+    align-items: end;
+    size: 100%;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+<body>
+    <div id="video-container">
+        <video id="form-video" autoplay loop muted>
+            <source src="video/bg3.mp4" type="video/mp4">
+        </video>
+        <div id="form-content">
+            <form id="registration-form" action="javascript:void(0);">
+                <h1 class="register">Registration</h1>
+                <label class="text" for="name">Full Name:</label>
+                <input class="inp" type="text" id="name" name="name" placeholder="John Doe" required> <br>
+
+                <label class="text" for="email">Email-add: </label>
+                <input class="inp" type="email" id="email" name="email" placeholder="johndoe@example.com" required><br>
+
+                <label class="text" for="username">Username:</label>
+                <input class="inp" type="text" id="username" name="username" placeholder="johndoe123" required><br>
+
+                <label class="text" for="password">Password:</label>
+                <input class="inp" type="password" id="password" name="password" required><br>
+                <div id="success-message" class="success-message"></div>
+                <button class="submit submit1" id="submit-button" type="submit">Register</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
